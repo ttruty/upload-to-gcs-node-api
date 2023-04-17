@@ -21,7 +21,6 @@ const storage = new Storage({
       client_email: credential.client_email,
       private_key: credential.private_key,
     },
-    // keyFilename: process.env.KEY_FILE,
 });
 
 const createWriteStream = (filename, bucketName, contentType) => {
